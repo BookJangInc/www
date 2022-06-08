@@ -1,0 +1,149 @@
+/***********/
+/* setting */
+/***********/
+
+/* font */
+@font-face{
+    font-family:'NanumSquare';
+    src: url(../font/NanumSquare.eot),
+         url(../font/NanumSquare.eot.eot?#iefix) format('embedded-opentype'),
+         url(images/NanumSquareR.woff) format('woff'),
+         url(images/NanumSquareR.ttf) format('truetype');
+    }
+
+/* body */
+body {
+    width: 1920px;
+    height: 1080px;
+
+    float: left;
+
+    margin: 0px;
+    padding: 0px;
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #000;
+    line-height: 1.2em;
+    letter-spacing: -0.5;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+ 
+/* non-scroll */
+::-webkit-scrollbar {display: none;}
+
+/* text */
+.light {font-weight: 300;}
+.bold {font-weight: 800;}
+
+.t_size_1 {font-size: 5.0em;}
+.t_size_2 {font-size: 4.0em;}
+.t_size_3 {font-size: 3.0em;}
+.t_size_4 {font-size: 2.0em;}
+.t_size_5 {font-size: 1.0em;}
+
+.w {color: #fff;}
+
+/*********/
+/* logo */
+/*********/
+.top{
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.top .logo{    
+    width: 300px;
+    height: 100%;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.top .logo:hover{
+    cursor: pointer;
+}
+
+/*********/
+/* main1 */
+/*********/
+.main1{
+    width: 100%;
+    height: 100%;
+}
+
+.main1 .background img{
+    display: block;
+}
+
+/*********/
+/* main2 */
+/*********/
+.main2{
+    width: 100%;
+    height: 100%;
+}
+
+.main2 .background img{
+    display: block;
+}
+
+/* menu - button */
+.main2 .menu{
+    width: 100%;
+    
+    position: absolute;
+    top: 288px;
+    left: 130px;
+}
+
+.main2 .menu .button{}
+.main2 .menu .button li{
+    display: inline-block;
+    
+    width: 305px;
+    height: 337px;
+
+    margin-right: 111.5px;
+}
+
+.main2 .menu .button li:hover{
+    cursor: pointer;
+}
+
+/* popup */
+.main2 .popup{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 1080px;
+}
+
+.main2 .popup .closeBtn{      
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+    top: 165px;
+    right: 170px;
+}
+
+.main2 .popup .closeBtn:hover{
+    cursor: pointer;
+}
+
+/* 위치 확인용 */
+/* border: 1px solid red; */
